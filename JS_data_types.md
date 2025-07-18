@@ -36,17 +36,17 @@ In Javascript, there are 3 types of quotes:
 2. Single quotes
 3. Backticks - extended functionality, allow us to embed variables by wrapping them in ${...}
 
-##Boolean
+## Boolean
 True/False
 
-##Null
+## Null
 It is not a string, number, or any of the types above. It is simply null.
 ```
 let age = null;
 ```
 It is a special value which represents "nothing", "empty" or "value unknown".
 
-##Undefined
+## Undefined
 Like null, it is it's own data type, it means "Value is not assigned".
 ```
 let age;
@@ -63,11 +63,12 @@ alert(age); //"undefined"
 
 You'd probably be better using null though.
 
-##Objects and Symbols
+## Objects and Symbols
 Unlike other "primitive" types, Object can store collections of data and complex entities.
+
 Symbol can be used to create unique identifiers for objects.
 
-#Typeof operator
+# Typeof operator
 The typeof operator returns the type of the operand:
 ```
 typeof undefined //"undefined"
