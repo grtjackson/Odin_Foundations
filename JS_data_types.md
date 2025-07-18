@@ -68,7 +68,7 @@ Unlike other "primitive" types, Object can store collections of data and complex
 
 Symbol can be used to create unique identifiers for objects.
 
-# Typeof operator
+## Typeof operator
 The typeof operator returns the type of the operand:
 ```
 typeof undefined //"undefined"
