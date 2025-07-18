@@ -1,6 +1,6 @@
 # Installing Node.js
 
-## pre-req
+## pre-req - installing NVM
 
 
 ### Make sure you have curl installed
@@ -38,3 +38,25 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 command -v nvm
 ```
 
+## Installing Node
+Run:
+```
+nvm install -lts
+```
+
+## Setting Node version
+Run:
+```
+nvm use --lts
+```
+
+# Running Node
+To start node, type:
+```
+node
+```
+To exit, type:
+```
+.exit
+```
+(remember the ".")
