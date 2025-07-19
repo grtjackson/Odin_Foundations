@@ -5,7 +5,9 @@
 Integer : 10
 Floating Point: 10.554
 `
+
 Special numeric values include:
+
 `
 Infinity
 -Infinity
